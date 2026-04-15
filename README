@@ -1,0 +1,30 @@
+# SocialCredit Addons
+
+This repository acts as the public index for addons built for the SocialCredit core framework.
+
+## Official Addons
+
+Official addons are maintained by the SocialCredit project and are considered part of the supported ecosystem.
+
+- SocialCreditExampleAddon — reference addon demonstrating API/event usage
+- SocialCreditBlackMarket — extended illegal trade / state pressure gameplay
+
+## Community Addons
+
+Community addons are built independently. These are not maintained by the core project unless explicitly stated.
+
+- ExampleCommunityAddon — demonstrates custom penalty policy hooks
+
+## Listing Rules
+
+To be listed here, addons should:
+- target the public SocialCredit API
+- avoid internal classes and direct DB access
+- clearly state supported core version(s)
+- include source or clear release information
+
+## Support Boundary
+
+Official addons are supported as part of the SocialCredit ecosystem.
+
+Community addons are listed for visibility only unless otherwise stated.
