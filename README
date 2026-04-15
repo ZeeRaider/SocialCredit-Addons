@@ -1,30 +1,94 @@
 # SocialCredit Addons
 
-This repository acts as the public index for addons built for the SocialCredit core framework.
+This repository acts as the **official addon index** for the SocialCredit framework.
+
+SocialCredit core is designed to remain stable and minimal.  
+All additional gameplay systems, mechanics, and extensions should be built as **addons**.
+
+---
+
+## What is an Addon?
+
+An addon is a separate plugin that:
+
+- depends on SocialCredit
+- uses the public API
+- extends or modifies behaviour through events
+- does not rely on internal classes or database access
+
+---
 
 ## Official Addons
 
-Official addons are maintained by the SocialCredit project and are considered part of the supported ecosystem.
+Official addons are maintained by the SocialCredit project.
 
-- SocialCreditExampleAddon — reference addon demonstrating API/event usage
-- SocialCreditBlackMarket — extended illegal trade / state pressure gameplay
+They follow:
+- API best practices
+- version compatibility standards
+- long-term support expectations
+
+### Planned / In Progress
+
+- SocialCreditExampleAddon — reference implementation for API usage
+- SocialCreditBlackMarket — illegal trade / enforcement system
+- SocialCreditFarming — behaviour-based farming penalties & rewards
+
+---
 
 ## Community Addons
 
-Community addons are built independently. These are not maintained by the core project unless explicitly stated.
+Community addons are developed independently.
 
-- ExampleCommunityAddon — demonstrates custom penalty policy hooks
+They are listed here for visibility, but are **not maintained or supported** unless stated.
 
-## Listing Rules
+*(No community addons listed yet)*
 
-To be listed here, addons should:
-- target the public SocialCredit API
-- avoid internal classes and direct DB access
-- clearly state supported core version(s)
-- include source or clear release information
+---
+
+## Add Your Addon
+
+Want your addon listed here?
+
+Open a PR or issue with:
+
+- Repository link
+- Short description
+- Supported SocialCredit version
+- Confirmation that it uses the public API (not internals)
+
+---
+
+## Rules for Listing
+
+Addons must:
+
+- use `com.example.socialcredit.api.*`
+- not access internal services or database
+- clearly state compatibility version
+- build and run against current core versions
+
+---
 
 ## Support Boundary
 
-Official addons are supported as part of the SocialCredit ecosystem.
+- Official addons → supported by SocialCredit
+- Community addons → listed for discovery only
 
-Community addons are listed for visibility only unless otherwise stated.
+---
+
+## Project Direction
+
+SocialCredit is evolving into a **framework-first system**.
+
+The core will remain stable.  
+New systems should be introduced through addons.
+
+---
+
+## Related
+
+Core plugin:
+https://github.com/ZeeRaider/SocialCredit
+
+API reference:
+SocialCredit-1.6.4-API-Reference.md
