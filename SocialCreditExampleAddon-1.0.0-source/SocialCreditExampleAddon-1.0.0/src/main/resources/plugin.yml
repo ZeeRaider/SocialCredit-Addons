@@ -1,7 +1,0 @@
-name: SocialCreditExampleAddon
-main: com.zeeraider.socialcreditexampleaddon.SocialCreditExampleAddon
-version: 1.0.0
-api-version: '1.20'
-author: ZeeRaider
-description: Official reference addon for the SocialCredit framework.
-depend: [SocialCredit]
